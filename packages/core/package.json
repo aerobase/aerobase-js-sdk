@@ -1,19 +1,19 @@
 {
-  "name": "@aerogear/core",
+  "name": "@aerobase/core",
   "version": "0.3.0",
-  "description": "JavaScript Core SDK for AeroGear services",
+  "description": "JavaScript Core SDK for AeroBase services",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
-  "author": "AeroGear <aerogear@googlegroups.com>",
+  "author": "AeroBase <aerobase@googlegroups.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aerogear/aerogear-js-sdk.git"
+    "url": "https://github.com/aerobase/aerobase-js-sdk.git"
   },
   "bugs": {
     "url": "https://issues.jboss.org/projects/AGCORDOVA/issues"
   },
   "keywords": [
-    "aerogear",
+    "aerobase",
     "mobile"
   ],
   "license": "Apache-2.0",

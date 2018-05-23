@@ -1,7 +1,7 @@
 /**
- * @module @aerogearservices/core
+ * @module @aerobaseservices/core
  *
- * Module used to aggregate common functionalities for AeroGear Services SDK's
+ * Module used to aggregate common functionalities for AeroBase Services SDK's
  */
 import console from "loglevel";
 console.setDefaultLevel(console.levels.WARN);

@@ -1,6 +1,6 @@
 import console from "loglevel";
 import uuid from "uuid/v1";
-import { AeroGearConfiguration, ServiceConfiguration } from "../config";
+import { AeroBaseConfiguration, ServiceConfiguration } from "../config";
 import { INSTANCE } from "../Core";
 
 import { isMobileCordova, isNative } from "../PlatformUtils";
@@ -11,7 +11,7 @@ import { MetricsPublisher, NetworkMetricsPublisher } from "./publisher";
 declare var window: any;
 
 /**
- * AeroGear Metrics SDK
+ * AeroBase Metrics SDK
  * Provides internal api for metrics that are sent to metrics server.
  */
 export class MetricsService {

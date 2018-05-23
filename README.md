@@ -1,6 +1,6 @@
-# AeroGear JavaScript SDK
+# AeroBase JavaScript SDK
 
-[![circle-ci](https://img.shields.io/circleci/project/github/aerogear/aerogear-js-sdk/master.svg)](https://circleci.com/gh/aerogear/aerogear-js-sdk)
+[![circle-ci](https://img.shields.io/circleci/project/github/aerobase/aerobase-js-sdk/master.svg)](https://circleci.com/gh/aerobase/aerobase-js-sdk)
 [![License](https://img.shields.io/badge/-Apache%202.0-blue.svg)](https://opensource.org/s/Apache-2.0)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
@@ -9,10 +9,10 @@
 | License:        | Apache License, Version 2.0                                      |
 | Build:          | NPM                                                              |
 | Issue tracker:  | https://issues.jboss.org/browse/AGCORDOVA                        |
-| Mailing lists:  | [aerogear-users](http://aerogear-users.1116366.n5.nabble.com/)   |
-|                 | [aerogear-dev](https://groups.google.com/forum/#!forum/aerogear) |
+| Mailing lists:  | [aerobase-users](http://aerobase-users.1116366.n5.nabble.com/)   |
+|                 | [aerobase-dev](https://groups.google.com/forum/#!forum/aerobase) |
 
-AeroGear SDK for JavaScript, Apache Cordova and React Native.
+AeroBase SDK for JavaScript, Apache Cordova and React Native.
 
 ## Documentation
 
@@ -21,7 +21,7 @@ AeroGear SDK for JavaScript, Apache Cordova and React Native.
 
 ### List of SDKs
 
-AeroGear Services SDK consist of set of separate SDKs
+AeroBase Services SDK consist of set of separate SDKs
 
 - [Auth](./docs/auth/README.adoc): Mobile Auth SDK
 - [Metrics](./docs/metrics/metrics.adoc): Mobile application metrics SDK
@@ -39,13 +39,13 @@ For implementation details see [Service Contributor Guide](./docs/contrib/contri
 
 ## Development
 
-If you would like to help develop AeroGear you can join our [developer's mailing list](https://groups.google.com/forum/#!forum/aerogear), join #aerogear on Freenode, or shout at us on Twitter @aerogears.
+If you would like to help develop AeroBase you can join our [developer's mailing list](https://groups.google.com/forum/#!forum/aerobase), join #aerobase on Freenode, or shout at us on Twitter @aerobases.
 
 Also takes some time and skim the [contributor guide](CONTRIBUTING.md)
 
 ## Questions?
 
-Join our [user mailing list](https://groups.google.com/forum/#!forum/aerogear) for any questions or help! We really hope you enjoy app development with AeroGear!
+Join our [user mailing list](https://groups.google.com/forum/#!forum/aerobase) for any questions or help! We really hope you enjoy app development with AeroBase!
 
 ## Found a bug?
 

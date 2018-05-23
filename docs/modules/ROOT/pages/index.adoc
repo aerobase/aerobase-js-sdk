@@ -1,1 +1,1 @@
-= AeroGear JavaScript SDK
+= AeroBase JavaScript SDK

@@ -1,19 +1,19 @@
 {
-  "name": "@aerogear/auth",
+  "name": "@aerobase/auth",
   "version": "0.3.0",
-  "description": "JavaScript Auth module for AeroGear services",
+  "description": "JavaScript Auth module for AeroBase services",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
-  "author": "Aerogear <aerogear@googlegroups.com>",
+  "author": "Aerogear <aerobase@googlegroups.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aerogear/aerogear-js-sdk.git"
+    "url": "https://github.com/aerobase/aerobase-js-sdk.git"
   },
   "bugs": {
     "url": "https://issues.jboss.org/projects/AGCORDOVA/issues"
   },
   "keywords": [
-    "aerogear",
+    "aerobase",
     "mobile",
     "keycloak",
     "sso",
@@ -67,7 +67,7 @@
     "typescript": "^2.8.1"
   },
   "dependencies": {
-    "@aerogear/core": "0.3.0",
+    "@aerobase/core": "0.3.0",
     "keycloak-js": "4.0.0-beta.1",
     "loglevel": "^1.6.1",
     "url": "^0.11.0"

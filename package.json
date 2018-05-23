@@ -1,8 +1,8 @@
 {
-  "name": "AeroGearServicesWeb",
+  "name": "AeroBaseServicesWeb",
   "version": "1.0.0",
   "private": true,
-  "description": "AeroGear Services Web/Cordova SDK mono repository",
+  "description": "AeroBase Services Web/Cordova SDK mono repository",
   "main": "index.js",
   "scripts": {
     "test": "lerna run test",
