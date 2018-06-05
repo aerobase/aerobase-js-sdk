@@ -1,4 +1,4 @@
-import { isCordovaAndroid } from "@aerogear/core";
+import { isCordovaAndroid } from "@aerobase/core";
 import { SecurityCheck } from "../SecurityCheck";
 import { SecurityCheckResult } from "../SecurityCheckResult";
 

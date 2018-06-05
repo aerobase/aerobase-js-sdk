@@ -1,10 +1,10 @@
-import { INSTANCE, ServiceConfiguration } from "@aerogear/core";
+import { INSTANCE, ServiceConfiguration } from "@aerobase/core";
 import Keycloak from "keycloak-js";
 import { KeycloakError, KeycloakInitOptions, KeycloakInstance, KeycloakProfile, KeycloakPromise } from "keycloak-js";
 import console from "loglevel";
 
 /**
- * AeroGear Auth SDK.
+ * AeroBase Auth SDK.
  * Wrapper class for {Keycloak.KeycloakInstance}
  */
 export class Auth {

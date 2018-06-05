@@ -1,12 +1,12 @@
 
-import { AeroGearConfiguration, INSTANCE, isCordovaAndroid, isCordovaIOS } from "@aerogear/core";
+import { AeroBaseConfiguration, INSTANCE, isCordovaAndroid, isCordovaIOS } from "@aerobase/core";
 import axios from "axios";
 
 declare var window: any;
 declare var document: any;
 
 /**
- * AeroGear UPS registration SDK
+ * AeroBase UPS registration SDK
  *
  * Usage:
  * // Initialize SDK first
@@ -41,7 +41,7 @@ export class PushRegistration {
   public register(deviceToken: string, alias: string = "", categories: string[] = []): Promise<void> {
     if (!window || !window.device) {
       return Promise.reject(new Error("Registration requires cordova plugin. Verify the " +
-        "@aerogear/cordova-plugin-aerogear-metrics plugin is installed."));
+        "@aerobase/cordova-plugin-aerobase-metrics plugin is installed."));
     }
     if (!this.pushConfig || !this.pushConfig.config || !this.pushConfig.url) {
       return Promise.reject(new Error("UPS registration: configuration is invalid"));

@@ -1,4 +1,4 @@
-== AeroGear JavaScript Auth SDK
+== AeroBase JavaScript Auth SDK
 
 Mobile authentication SDK based on link:http://www.keycloak.org/[Keycloak] using link:http://openid.net/connect/[OpenID Connect].
 
@@ -6,7 +6,7 @@ Mobile authentication SDK based on link:http://www.keycloak.org/[Keycloak] using
 
 1. To use the Auth SDK you'll first need to have a Keycloak instance. Follow the next steps to set it up using Openshift:
 
-.. If you do not have mobile services enabled in your openshift cluster follow this link:https://github.com/aerogear/mobile-core/blob/master/docs/walkthroughs/local-setup.adoc[Local Setup] guide.
+.. If you do not have mobile services enabled in your openshift cluster follow this link:https://github.com/aerobase/mobile-core/blob/master/docs/walkthroughs/local-setup.adoc[Local Setup] guide.
 
 .. Navigate to your Openshift cluster and in the Service Catalog search for the Keycloak service.
 
@@ -21,17 +21,17 @@ See link:http://www.keycloak.org/docs/latest/server_admin/index.html#oidc-client
 2. Install the Auth package:
 +
 ----
-npm install @aerogear/auth
+npm install @aerobase/auth
 ----
 
-3. Generate again the app configuration file to use during xref:getting-started.adoc[app initialization]. For an example of Keycloak configuration see the example app's link:https://github.com/aerogear/cordova-showcase-template/blob/master/src/mobile-services.json[mobile-services.json].
+3. Generate again the app configuration file to use during xref:getting-started.adoc[app initialization]. For an example of Keycloak configuration see the example app's link:https://github.com/aerobase/cordova-showcase-template/blob/master/src/mobile-services.json[mobile-services.json].
 
 === Auth Service Initialization
-Once the AeroGear SDK is initialized (see xref:getting-started.adoc[Getting Started]) you can import and initialize `Auth`:
+Once the AeroBase SDK is initialized (see xref:getting-started.adoc[Getting Started]) you can import and initialize `Auth`:
 
 [source,javascript]
 ----
-import { Auth } from "@aerogear/auth";
+import { Auth } from "@aerobase/auth";
 
 const authService = new Auth();
 
@@ -58,7 +58,7 @@ authService.init({ onLoad: "login-required" })
 *Note*: Initialising the `Auth` will also perform the authentication action.
 
 *Note*: In AngularJS, it is necessary to initialise the Auth SDK before bootstrapping Angular to prevent Redirect looping issues after authentication.
-An example of how to perform this in Angular 4 is available in the Aerogear Cordova Showcase App's https://github.com/aerogear/cordova-showcase-template/blob/master/src/app/main.ts[main.ts].
+An example of how to perform this in Angular 4 is available in the Aerogear Cordova Showcase App's https://github.com/aerobase/cordova-showcase-template/blob/master/src/app/main.ts[main.ts].
 
 === Manual Authentication
 To redirect to the login screen, invoke the `login` function:

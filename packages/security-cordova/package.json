@@ -1,22 +1,22 @@
 {
-  "name": "@aerogear/cordova-plugin-aerogear-security",
+  "name": "@aerobase/cordova-plugin-aerobase-security",
   "version": "0.4.0",
   "description": "Cordova plugin for self defence checks for Android and iOS devices.",
   "cordova": {
-    "id": "cordova-plugin-aerogear-security",
+    "id": "cordova-plugin-aerobase-security",
     "platforms": []
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aerogear/aerogear-js-sdk.git"
+    "url": "git+https://github.com/aerobase/aerobase-js-sdk.git"
   },
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "AeroGear <aerogear@googlegroups.com>",
+  "author": "AeroBase <aerobase@googlegroups.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/aerogear/aerogear-js-sdk/issues"
+    "url": "https://github.com/aerobase/aerobase-js-sdk/issues"
   },
-  "homepage": "https://github.com/aerogear/aerogear-js-sdk#readme"
+  "homepage": "https://github.com/aerobase/aerobase-js-sdk#readme"
 }

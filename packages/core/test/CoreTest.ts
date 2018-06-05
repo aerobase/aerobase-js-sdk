@@ -1,6 +1,6 @@
 import { assert, expect } from "chai";
 import mocha from "mocha";
-import { AeroGearConfiguration, ServiceConfiguration } from "../src/config";
+import { AeroBaseConfiguration, ServiceConfiguration } from "../src/config";
 import { AgsCore } from "../src/Core";
 import testConfigJson from "./mobile-config.json";
 
@@ -18,17 +18,17 @@ window.localStorage = {
 };
 
 describe("AgsCore Tests", () => {
-  const aerogearConfig = testConfigJson as AeroGearConfiguration;
+  const aerobaseConfig = testConfigJson as AeroBaseConfiguration;
   let core: AgsCore;
 
   beforeEach(async () => {
     core = new AgsCore();
-    core.init(aerogearConfig);
+    core.init(aerobaseConfig);
   });
 
   describe("#constructor", () => {
     it("should throw if configuration is null/undefined", async () => {
-      core.init({} as AeroGearConfiguration);
+      core.init({} as AeroBaseConfiguration);
     });
 
     it("should instantiate an array of configurations from a mobile-config JSON", () => {

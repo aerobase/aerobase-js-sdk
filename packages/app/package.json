@@ -1,5 +1,5 @@
 {
-  "name": "@aerogear/app",
+  "name": "@aerobase/app",
   "version": "0.4.0",
   "description": "Aero Gear SDK application module",
   "main": "dist/index.js",
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aerogear/aerogear-js-sdk.git"
+    "url": "git+https://github.com/aerobase/aerobase-js-sdk.git"
   },
   "keywords": [
-    "aerogear",
-    "aerogear services"
+    "aerobase",
+    "aerobase services"
   ],
   "author": "Aero Gear",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/aerogear/aerogear-js-sdk/issues"
+    "url": "https://github.com/aerobase/aerobase-js-sdk/issues"
   },
-  "homepage": "https://github.com/aerogear/aerogear-js-sdk#readme",
+  "homepage": "https://github.com/aerobase/aerobase-js-sdk#readme",
   "devDependencies": {
     "@types/chai": "^4.1.3",
     "chai": "^4.1.2",
@@ -31,6 +31,6 @@
     "nyc": "^11.7.1"
   },
   "dependencies": {
-    "@aerogear/core": "0.4.0"
+    "@aerobase/core": "0.4.0"
   }
 }

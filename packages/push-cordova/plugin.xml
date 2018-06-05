@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin
-    id="cordova-plugin-aerogear-push"
+    id="cordova-plugin-aerobase-push"
     version="0.4.0"
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <name>cordova-plugin-aerogear-push</name>
+    <name>cordova-plugin-aerobase-push</name>
 
     <plugin name="phonegap-plugin-push" spec="^2.2.3" />
 

@@ -1,11 +1,11 @@
-## AeroGear Metrics Cordova plugin
+## AeroBase Metrics Cordova plugin
 
-Wrapper for existing cordova plugins that are being used for AeroGear metrics SDK.
+Wrapper for existing cordova plugins that are being used for AeroBase metrics SDK.
 
 ## Installation
 
 ```
-cordova plugin add @aerogear/cordova-plugin-aerogear-metrics
+cordova plugin add @aerobase/cordova-plugin-aerobase-metrics
 ```
 
 ## Using development version of plugin
