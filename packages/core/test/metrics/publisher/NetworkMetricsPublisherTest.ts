@@ -10,7 +10,7 @@ import {
   MetricsService,
   NetworkMetricsPublisher
 } from "../../../src/metrics";
-import testAerogearConfig from "../../mobile-config.json";
+import testAerobaseConfig from "../../mobile-config.json";
 
 describe("NetworkMetricsPublisher", () => {
 

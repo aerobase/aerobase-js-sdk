@@ -1,4 +1,4 @@
-import { INSTANCE } from "@aerogear/core";
+import { INSTANCE } from "@aerobase/core";
 import { SyncConfig } from "../src/config/SyncConfig";
 import { expect } from "chai";
 

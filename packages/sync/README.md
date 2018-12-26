@@ -1,6 +1,6 @@
-# AeroGear Apollo GraphQL Voyager client
+# AeroBase Apollo GraphQL Voyager client
 
-Client SDK for [Apollo Voyager Server](https://github.com/aerogear/apollo-voyager-server)
+Client SDK for [Apollo Voyager Server](https://github.com/aerobase/apollo-voyager-server)
 
 # Getting Started
 
@@ -9,7 +9,7 @@ Client SDK for [Apollo Voyager Server](https://github.com/aerogear/apollo-voyage
 import {
   createClient,
   strategies
-} from '@aerogear/datasync-js';
+} from '@aerobase/datasync-js';
 ```
 
 ## Configuration
@@ -43,7 +43,7 @@ let client = createClient(config);
 # Example application
 
 Try SDK using sample application:
-https://github.com/aerogear/apollo-voyager-ionic-example
+https://github.com/aerobase/apollo-voyager-ionic-example
 
 
 # Basic concepts
@@ -123,7 +123,7 @@ When performing mutations that affects some queries users can use `refetchQuerie
 
 ## Making modifications when offline
 
-AeroGear Sync SDK provides queue that stores mutations performed when offline.
+AeroBase Sync SDK provides queue that stores mutations performed when offline.
 By default queue saves data in storage to be available after application restarts.
 Queue will hold requests until application will come back online.
 
@@ -142,7 +142,7 @@ exampleQuery(...) @onlineOnly {
 
 ### Squashing Mutations
 
-Multiple changes performed on the same object ID and with the same mutation will automatically be joined by the AeroGear Sync SDK when your client is offline. This is beneficial as the client will not have to queue a large amount of mutations to replay once it returns online.
+Multiple changes performed on the same object ID and with the same mutation will automatically be joined by the AeroBase Sync SDK when your client is offline. This is beneficial as the client will not have to queue a large amount of mutations to replay once it returns online.
 
 #### Global Squashing
 This feature is on by default at a global level. To disable it on a global level simply do so in your config:
@@ -208,7 +208,7 @@ export const linkBuilder: LinkChainBuilder = (): ApolloLink => {
 
 ## Implementing Custom Network Status checks
 
-To use your own custom network checks, implement the [NetworkStatus](https://github.com/aerogear/aerogear-js-sdk/blob/master/packages/sync/src/offline/NetworkStatus.ts)
+To use your own custom network checks, implement the [NetworkStatus](https://github.com/aerobase/aerobase-js-sdk/blob/master/packages/sync/src/offline/NetworkStatus.ts)
  interface which provides two functions;
 
 ```javascript
@@ -222,11 +222,11 @@ To use your own custom network checks, implement the [NetworkStatus](https://git
 Sync package is using debug package to print out debug messages
 
 To enable debug please execute in console
-`localStorage.debug = 'AeroGearSync:*'`
+`localStorage.debug = 'AeroBaseSync:*'`
 
 Some certain features can be enabled separately
 
-`localStorage.debug = 'AeroGearSync:OfflineMutations*'`
+`localStorage.debug = 'AeroBaseSync:OfflineMutations*'`
 
 ## Optimistic UI
 
@@ -236,7 +236,7 @@ When performing mutations users can decide to supply `optimisticResponse` object
 appear instantly in the application UI. SDK provides helper method to work with optimistic responses.
 
 ```
- import { createOptimisticResponse } from "@aerogear/datasync-js";
+ import { createOptimisticResponse } from "@aerobase/datasync-js";
 
  createOptimisticResponse("updateTest", "Test", { data: "test" });
 ```

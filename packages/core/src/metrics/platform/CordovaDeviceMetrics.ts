@@ -22,7 +22,7 @@ export class CordovaDeviceMetrics implements Metrics {
         if (!window || !window.device) {
           return reject(
             "Missing required plugin to collect metrics. Verify the " +
-            "@aerogear/cordova-plugin-aerogear-metrics plugin is installed."
+            "@aerobase/cordova-plugin-aerobase-metrics plugin is installed."
           );
         }
         return resolve({

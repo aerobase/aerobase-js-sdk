@@ -2,4 +2,4 @@
 
 This documentation set is written in link:http://asciidoc.org/[AsciiDoc^] and rendered by link:https://antora.org/[Antora^].
 
-IMPORTANT: Read the link:https://github.com/aerogear/mobile-docs/blob/master/README.adoc[Contribution Guide].
+IMPORTANT: Read the link:https://github.com/aerobase/mobile-docs/blob/master/README.adoc[Contribution Guide].

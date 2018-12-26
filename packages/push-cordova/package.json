@@ -1,25 +1,25 @@
 {
-  "name": "@aerogear/cordova-plugin-aerogear-push",
+  "name": "@aerobase/cordova-plugin-aerobase-push",
   "version": "2.0.0",
-  "description": "Cordova plugin for AeroGear Push Notifications",
+  "description": "Cordova plugin for AeroBase Push Notifications",
   "cordova": {
-    "id": "cordova-plugin-aerogear-push",
+    "id": "cordova-plugin-aerobase-push",
     "platforms": []
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aerogear/aerogear-js-sdk.git"
+    "url": "git+https://github.com/aerobase/aerobase-js-sdk.git"
   },
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Aerogear <aerogear@googlegroups.com>",
+  "author": "Aerobase <aerobase@googlegroups.com>",
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://issues.jboss.org/projects/AGCORDOVA/issues"
+    "url": "https://aerobase.atlassian.net/projects/AEROBASE/issues"
   },
-  "homepage": "https://github.com/aerogear/aerogear-js-sdk#readme"
+  "homepage": "https://github.com/aerobase/aerobase-js-sdk#readme"
 }

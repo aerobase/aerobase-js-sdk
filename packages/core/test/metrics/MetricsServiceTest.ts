@@ -11,7 +11,7 @@ import {
   MetricsService,
   NetworkMetricsPublisher
 } from "../../src/metrics";
-import testAerogearConfig from "../mobile-config.json";
+import testAerobaseConfig from "../mobile-config.json";
 
 global.window = {};
 
@@ -37,7 +37,7 @@ window.localStorage = {
 };
 
 describe("MetricsService", () => {
-  INSTANCE.init(testAerogearConfig);
+  INSTANCE.init(testAerobaseConfig);
   const configs = INSTANCE.getConfigByType(MetricsService.TYPE);
   const metricsConfig = configs[0];
 

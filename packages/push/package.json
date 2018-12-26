@@ -1,10 +1,10 @@
 {
-  "name": "@aerogear/push",
+  "name": "@aerobase/push",
   "version": "2.0.0",
-  "description": "AeroGear Unified Push Registration SDK",
+  "description": "AeroBase Unified Push Registration SDK",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
-  "author": "Aerogear <aerogear@googlegroups.com>",
+  "author": "Aerobase <aerobase@googlegroups.com>",
   "scripts": {
     "clean": "del coverage src/**/*.js src/**/*.map test/**/*.js test/**/*.map dist types",
     "build": "tsc",
@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aerogear/aerogear-js-sdk.git"
+    "url": "git+https://github.com/aerobase/aerobase-js-sdk.git"
   },
   "keywords": [
-    "aerogear",
+    "aerobase",
     "ups"
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://issues.jboss.org/projects/AGCORDOVA/issues"
+    "url": "https://aerobase.atlassian.net/projects/AEROBASE/issues"
   },
-  "homepage": "https://github.com/aerogear/aerogear-js-sdk#readme",
+  "homepage": "https://github.com/aerobase/aerobase-js-sdk#readme",
   "devDependencies": {
     "@types/chai": "^4.1.3",
     "chai": "^4.1.2",
@@ -34,7 +34,7 @@
     "nyc": "^11.7.1"
   },
   "dependencies": {
-    "@aerogear/core": "2.0.0",
+    "@aerobase/core": "2.0.0",
     "axios": "^0.18.0"
   }
 }

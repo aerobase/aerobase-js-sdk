@@ -1,4 +1,4 @@
-= Contributing to AeroGear JavaScript SDK
+= Contributing to AeroBase JavaScript SDK
 
 First, ensure you have the https://docs.npmjs.com/[latest npm] installed.
 
@@ -10,7 +10,7 @@ npm run bootstrap
 == Project Structure
 The SDK is made by a group of modules, each one implemented in a different NPM package and all placed under `/packages`.
 
-Each module provides an API to use a particular AeroGear service.
+Each module provides an API to use a particular AeroBase service.
 
 A main package called `core` contains a shared set of interfaces, classes and other functionalities that the rest of modules depend on.
 
@@ -23,6 +23,10 @@ Once the development is done, the module is built and the source code is transpi
 == Commands
 
 Run this commands from the repo's root directory.
+
+==== Bootstrap submodules
+[source,bash]
+npm run bootstrap
 
 ==== Run tests with coverage
 [source,bash]
@@ -40,34 +44,34 @@ npm run build
 
 Create a new NPM package under the packages folder with the module name: `/packages/my-module`, using our link:../templates/package.json[package.json template].
 
-Ensure to include the org scope to its name: `"name": "@aerogear/my-module"`.
+Ensure to include the org scope to its name: `"name": "@aerobase/my-module"`.
 
 Finally, add the following link:../templates/tsconfig.json[`tsconfig.json`].
 
 == Publishing a module
 
-Please refer to the https://github.com/aerogear/aerogear-js-sdk/blob/master/docs/releng.adoc[Release Docs].
+Please refer to the https://github.com/aerobase/aerobase-js-sdk/blob/master/docs/releng.adoc[Release Docs].
 
-== Showcase App
+== Demo App
 
-Testing can be done using the showcase application:
+Testing can be done using the demo application:
 
-https://github.com/aerogear/cordova-showcase-template
+https://github.com/aerobase-demo/angular-oauth2-starter
 
-The master branch of the linked showcase application will always use the latest released sdk packages. However,
-if you wish to use the showcase application for SDK development then ensure you have linked the relevant packages locally as follows:
+The master branch of the linked demo application will always use the latest released sdk packages. However,
+if you wish to use the demo application for SDK development then ensure you have linked the relevant packages locally as follows:
 
 [source,bash]
 npm run build
 npm run link
 
-If you wish, you may then also use the provided script cloneExamples.sh to clone the showcase application into the SDK's
+If you wish, you may then also use the provided script cloneExamples.sh to clone the demo application into the SDK's
 root folder.
 
-Once you have the showcase application cloned you can then run the following from within its root folder:
+Once you have the demo application cloned you can then run the following from within its root folder:
 
 [source, bash]
 npm install
 npm run linkDev
 
-Which will tell the showcase application to use the linked (local) version of the SDKs instead of the released ones.
+Which will tell the demo application to use the linked (local) version of the SDKs instead of the released ones.

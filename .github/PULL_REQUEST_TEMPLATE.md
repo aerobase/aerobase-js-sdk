@@ -1,5 +1,5 @@
 ## Motivation
-Add references to relevant tickets or a short description about what motivated you do it. (E.g JIRA: https://issues.jboss.org/browse/AEROGEAR-{} AND/OR ISSUE: https://github.com/aerogear/standards/issues/{}) 
+Add references to relevant tickets or a short description about what motivated you do it. (E.g JIRA: https://aerobase.atlassian.net/browse/AEROBASE-{} AND/OR ISSUE: https://github.com/aerobase/standards/issues/{}) 
 
 ## What
 Add an short answer for: What was done in this PR? (E.g Don't allow users has access to the feature X.)

@@ -1,9 +1,9 @@
 import find from "lodash.find";
 import console from "loglevel";
-import { AeroGearConfiguration, ServiceConfiguration } from "./config";
+import { AeroBaseConfiguration, ServiceConfiguration } from "./config";
 import { MetricsService } from "./metrics";
 /**
- * AeroGear services core class.
+ * AeroBase services core class.
  * Defines internal api and helpers to be used by all top level SDK's
  */
 export class AgsCore {
@@ -12,13 +12,13 @@ export class AgsCore {
   public metrics?: MetricsService;
 
   /**
-   * Initialize all AeroGear services SDK's
+   * Initialize all AeroBase services SDK's
    *
    * @param config configuration that should be injected to all available SDK's
    */
-  public init(config: AeroGearConfiguration): void {
+  public init(config: AeroBaseConfiguration): void {
     if (!config || !config.services || config.services.length === 0) {
-      return console.error("Invalid configuration format for AeroGear SDK");
+      return console.error("Invalid configuration format for AeroBase SDK");
     }
     this.configurations = config.services;
     this.metrics = new MetricsService();

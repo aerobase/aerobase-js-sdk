@@ -3,7 +3,7 @@ import { ServiceConfiguration } from "./";
 /**
  * Represents top level mobile configuration
  */
-export interface AeroGearConfiguration {
+export interface AeroBaseConfiguration {
 
   readonly version: number;
   readonly clusterName: string;

@@ -1,4 +1,4 @@
-## AeroGear Sync Cordova plugin
+## AeroBase Sync Cordova plugin
 
 Wrapper for Cordova plugins used in DataSync SDK
 
@@ -8,7 +8,7 @@ Includes following plugins:
 ## Installation
 
 ```
-cordova plugin add @aerogear/cordova-plugin-aerogear-sync
+cordova plugin add @aerobase/cordova-plugin-aerobase-sync
 ```
 
 ## Using development version of plugin

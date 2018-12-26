@@ -1,4 +1,4 @@
-## AeroGear Push Cordova plugin
+## AeroBase Push Cordova plugin
 
 Wrapper for existing push plugin phonegap-plugin-push
 
@@ -9,7 +9,7 @@ https://github.com/phonegap/phonegap-plugin-push
 ## Installation
 
 ```
-cordova plugin add @aerogear/cordova-plugin-aerogear-push
+cordova plugin add @aerobase/cordova-plugin-aerobase-push
 ```
 
 ## Using development version of plugin

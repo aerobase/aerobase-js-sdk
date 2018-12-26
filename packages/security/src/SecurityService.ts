@@ -1,4 +1,4 @@
-import { INSTANCE } from "@aerogear/core";
+import { INSTANCE } from "@aerobase/core";
 import { DeviceCheck, DeviceCheckResult } from "./deviceTrust";
 import { CheckResultMetrics, SecurityCheckResultMetric } from "./metrics";
 
@@ -6,7 +6,7 @@ import { CheckResultMetrics, SecurityCheckResultMetric } from "./metrics";
  * Service module for handling performing and reporting  possible security
  * issues in a mobile application.
  *
- * This requires the @aerogear/cordova-plugin-aerogear-security plugin to be
+ * This requires the @aerobase/cordova-plugin-aerobase-security plugin to be
  * included in an application.
  */
 export class SecurityService {
